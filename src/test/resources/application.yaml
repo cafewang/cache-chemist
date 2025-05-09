@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: cache-chemist
+  datasource:
+      url: jdbc:mysql://localhost:8082/test
+      username: root
+      password: 123456
+      driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    show-sql: false
+    database: mysql
+  data:
+    redis:
+      database: 0
+      host: localhost
+      port: 8081
+      timeout: 60000

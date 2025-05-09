@@ -1,0 +1,1 @@
+k run -it --rm --image=busybox -- sh
